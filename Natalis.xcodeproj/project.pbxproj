@@ -102,10 +102,10 @@
 		8C1963CA29A6520D00DA6100 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8C8CC0592A20F4C80027D646 /* DatesStore.swift */,
 				8C1963CB29A6522900DA6100 /* Theme.swift */,
 				8C448FE629F973DD006A7A71 /* History.swift */,
 				8C1963CD29A6529A00DA6100 /* DatesInfo.swift */,
-				8C8CC0592A20F4C80027D646 /* DatesStore.swift */,
 				8C8CC05B2A211C8B0027D646 /* ErrorWrapper.swift */,
 			);
 			path = Models;
