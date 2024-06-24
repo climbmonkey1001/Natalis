@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1963BD29A650B700DA6100 /* NatalisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1963BC29A650B700DA6100 /* NatalisApp.swift */; };
+		8C1963BF29A650B700DA6100 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1963BE29A650B700DA6100 /* CardView.swift */; };
+		8C1963C129A650BB00DA6100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1963C029A650BB00DA6100 /* Assets.xcassets */; };
+		8C1963C429A650BB00DA6100 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1963C329A650BB00DA6100 /* Preview Assets.xcassets */; };
+		8C1963CC29A6522900DA6100 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1963CB29A6522900DA6100 /* Theme.swift */; };
+		8C1963CE29A6529A00DA6100 /* DatesInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1963CD29A6529A00DA6100 /* DatesInfo.swift */; };
+		8C1963D629A66B0D00DA6100 /* DatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1963D529A66B0D00DA6100 /* DatesView.swift */; };
+		8C1963DA29AF50FD00DA6100 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1963D929AF50FD00DA6100 /* DetailView.swift */; };
+		8C448FE529F04EAE006A7A71 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C448FE429F04EAE006A7A71 /* SearchBar.swift */; };
+		8C448FE729F973DD006A7A71 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C448FE629F973DD006A7A71 /* History.swift */; };
+		8C448FE92A152D0E006A7A71 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C448FE82A152D0E006A7A71 /* HistoryView.swift */; };
+		8C5FE95629B8CCC80093D280 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5FE95529B8CCC80093D280 /* DetailEditView.swift */; };
+		8C5FE95829B8D0960093D280 /* CustomColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5FE95729B8D0960093D280 /* CustomColorPicker.swift */; };
+		8C8CC05A2A20F4C90027D646 /* DatesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CC0592A20F4C80027D646 /* DatesStore.swift */; };
+		8C8CC05C2A211C8B0027D646 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CC05B2A211C8B0027D646 /* ErrorWrapper.swift */; };
+		8C8CC05E2A211CD10027D646 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CC05D2A211CD10027D646 /* ErrorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C1963B929A650B700DA6100 /* Natalis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Natalis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1963BC29A650B700DA6100 /* NatalisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalisApp.swift; sourceTree = "<group>"; };
+		8C1963BE29A650B700DA6100 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8C1963C029A650BB00DA6100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C1963C329A650BB00DA6100 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C1963CB29A6522900DA6100 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8C1963CD29A6529A00DA6100 /* DatesInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesInfo.swift; sourceTree = "<group>"; };
+		8C1963D529A66B0D00DA6100 /* DatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesView.swift; sourceTree = "<group>"; };
+		8C1963D929AF50FD00DA6100 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		8C448FE429F04EAE006A7A71 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		8C448FE629F973DD006A7A71 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		8C448FE82A152D0E006A7A71 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		8C5FE95529B8CCC80093D280 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		8C5FE95729B8D0960093D280 /* CustomColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPicker.swift; sourceTree = "<group>"; };
+		8C8CC0592A20F4C80027D646 /* DatesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesStore.swift; sourceTree = "<group>"; };
+		8C8CC05B2A211C8B0027D646 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		8C8CC05D2A211CD10027D646 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C1963B629A650B700DA6100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C1963B029A650B700DA6100 = {
+			isa = PBXGroup;
+			children = (
+				8C1963BB29A650B700DA6100 /* Natalis */,
+				8C1963BA29A650B700DA6100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C1963BA29A650B700DA6100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C1963B929A650B700DA6100 /* Natalis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C1963BB29A650B700DA6100 /* Natalis */ = {
+			isa = PBXGroup;
+			children = (
+				8C1963CA29A6520D00DA6100 /* Models */,
+				8C1963BC29A650B700DA6100 /* NatalisApp.swift */,
+				8C1963BE29A650B700DA6100 /* CardView.swift */,
+				8C5FE95729B8D0960093D280 /* CustomColorPicker.swift */,
+				8C1963D529A66B0D00DA6100 /* DatesView.swift */,
+				8C448FE82A152D0E006A7A71 /* HistoryView.swift */,
+				8C8CC05D2A211CD10027D646 /* ErrorView.swift */,
+				8C1963D929AF50FD00DA6100 /* DetailView.swift */,
+				8C448FE429F04EAE006A7A71 /* SearchBar.swift */,
+				8C5FE95529B8CCC80093D280 /* DetailEditView.swift */,
+				8C1963C029A650BB00DA6100 /* Assets.xcassets */,
+				8C1963C229A650BB00DA6100 /* Preview Content */,
+			);
+			path = Natalis;
+			sourceTree = "<group>";
+		};
+		8C1963C229A650BB00DA6100 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C1963C329A650BB00DA6100 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C1963CA29A6520D00DA6100 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C1963CB29A6522900DA6100 /* Theme.swift */,
+				8C448FE629F973DD006A7A71 /* History.swift */,
+				8C1963CD29A6529A00DA6100 /* DatesInfo.swift */,
+				8C8CC0592A20F4C80027D646 /* DatesStore.swift */,
+				8C8CC05B2A211C8B0027D646 /* ErrorWrapper.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C1963B829A650B700DA6100 /* Natalis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1963C729A650BB00DA6100 /* Build configuration list for PBXNativeTarget "Natalis" */;
+			buildPhases = (
+				8C1963B529A650B700DA6100 /* Sources */,
+				8C1963B629A650B700DA6100 /* Frameworks */,
+				8C1963B729A650B700DA6100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Natalis;
+			productName = Natalis;
+			productReference = 8C1963B929A650B700DA6100 /* Natalis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C1963B129A650B700DA6100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8C1963B829A650B700DA6100 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8C1963B429A650B700DA6100 /* Build configuration list for PBXProject "Natalis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C1963B029A650B700DA6100;
+			productRefGroup = 8C1963BA29A650B700DA6100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C1963B829A650B700DA6100 /* Natalis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C1963B729A650B700DA6100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1963C429A650BB00DA6100 /* Preview Assets.xcassets in Resources */,
+				8C1963C129A650BB00DA6100 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C1963B529A650B700DA6100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8CC05C2A211C8B0027D646 /* ErrorWrapper.swift in Sources */,
+				8C1963CC29A6522900DA6100 /* Theme.swift in Sources */,
+				8C1963DA29AF50FD00DA6100 /* DetailView.swift in Sources */,
+				8C5FE95829B8D0960093D280 /* CustomColorPicker.swift in Sources */,
+				8C5FE95629B8CCC80093D280 /* DetailEditView.swift in Sources */,
+				8C448FE729F973DD006A7A71 /* History.swift in Sources */,
+				8C8CC05A2A20F4C90027D646 /* DatesStore.swift in Sources */,
+				8C448FE92A152D0E006A7A71 /* HistoryView.swift in Sources */,
+				8C1963BF29A650B700DA6100 /* CardView.swift in Sources */,
+				8C448FE529F04EAE006A7A71 /* SearchBar.swift in Sources */,
+				8C1963D629A66B0D00DA6100 /* DatesView.swift in Sources */,
+				8C8CC05E2A211CD10027D646 /* ErrorView.swift in Sources */,
+				8C1963BD29A650B700DA6100 /* NatalisApp.swift in Sources */,
+				8C1963CE29A6529A00DA6100 /* DatesInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C1963C529A650BB00DA6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C1963C629A650BB00DA6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C1963C829A650BB00DA6100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Natalis/Preview Content\"";
+				DEVELOPMENT_TEAM = 4TBUMJB2V7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GooseGoose.Natalis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C1963C929A650BB00DA6100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Natalis/Preview Content\"";
+				DEVELOPMENT_TEAM = 4TBUMJB2V7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GooseGoose.Natalis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C1963B429A650B700DA6100 /* Build configuration list for PBXProject "Natalis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1963C529A650BB00DA6100 /* Debug */,
+				8C1963C629A650BB00DA6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1963C729A650BB00DA6100 /* Build configuration list for PBXNativeTarget "Natalis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1963C829A650BB00DA6100 /* Debug */,
+				8C1963C929A650BB00DA6100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C1963B129A650B700DA6100 /* Project object */;
+}
