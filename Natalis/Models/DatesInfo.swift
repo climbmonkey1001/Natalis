@@ -174,9 +174,9 @@ extension String {
 extension DatesInfo {
     static let sampleData: [DatesInfo] =
     [
-        DatesInfo(title: "Jamie's Birthday", date: (try! Date("28 Mar 2050", strategy: expectedFormat)), reccuring: true, theme: Color("Blue"), ideas: ["Chocolate", "Crochet"]),
-        DatesInfo(title: "Christmas", date: (try! Date("25 Dec 2050", strategy: expectedFormat)), reccuring: true, theme: Color("Pink"), ideas: ["Tamerra: Shrek Crocs"]),
-        DatesInfo(title: "Trix's Birthday", date: (try! Date("30 Dec 2050", strategy: expectedFormat)), reccuring: true, theme: Color("Green"), ideas: ["Hot Wheels"]),
-        DatesInfo(title: "Present swap", date: (try! Date("13 May 2050", strategy: expectedFormat)), reccuring: false, theme: Color("Yellow"), ideas: ["Phoenix: flowers","Spencer: Some sort of Lego"])
+        DatesInfo(title: "Jamie's Birthday", date: (try! Date("28 Mar 2024", strategy: expectedFormat)), reccuring: true, theme: Color("Blue"), ideas: ["Chocolate", "Crochet"]),
+        DatesInfo(title: "Christmas", date: (try! Date("25 Dec 2024", strategy: expectedFormat)), reccuring: true, theme: Color("Pink"), ideas: ["Tamerra: Shrek Crocs"]),
+        DatesInfo(title: "Trix's Birthday", date: (try! Date("30 Dec 2023", strategy: expectedFormat)), reccuring: true, theme: Color("Green"), ideas: ["Hot Wheels"]),
+        DatesInfo(title: "Present swap", date: (try! Date("13 May 2024", strategy: expectedFormat)), reccuring: false, theme: Color("Yellow"), ideas: ["Phoenix: flowers","Spencer: Some sort of Lego"])
     ]
 }

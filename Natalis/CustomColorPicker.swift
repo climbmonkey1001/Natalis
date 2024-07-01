@@ -23,7 +23,7 @@ struct CustomColorPicker: View {
                                     .frame(width: 50, height: 50)
                                     .overlay(
                                         Circle()
-                                            .stroke(Color.black, lineWidth: self.selectedColor == color ? 3 : 0)
+                                            .stroke(Color("DarkToLight"), lineWidth: self.selectedColor == color ? 3 : 0)
                                     )
                             }
                         }

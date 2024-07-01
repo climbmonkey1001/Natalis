@@ -99,7 +99,7 @@ struct DatesView: View {
                 //            }
             }
             .toolbarBackground(
-                Color.white,
+                Color("LightToDark"),
                 for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
         }
