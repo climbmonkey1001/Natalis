@@ -57,7 +57,7 @@ struct DatesView: View {
                 .listRowBackground(Color("greyBackground"))
                 ForEach(sortedDates, id: \.id) { date in
                     //Checks if the date isn't one of the expired non-reccuring dates
-                    if (!(date.date.timeIntervalSince1970 < nowDate.timeIntervalSince1970 && !date.reccuring)){
+                    if (!(date.date.timeIntervalSince1970 < Calendar.current.startOfDay(for: Date()).timeIntervalSince1970 && !date.reccuring)){
                         
                         HStack {
                             CardView(thisDate: date)
@@ -131,7 +131,7 @@ struct DatesView: View {
     
     func updateDates() {
         for i in dates.indices {
-            if (nowDate.timeIntervalSince1970 > dates[i].date.timeIntervalSince1970) {
+            if (Calendar.current.startOfDay(for: Date()).timeIntervalSince1970 > dates[i].date.timeIntervalSince1970) {
                 if dates[i].reccuring,
                    let newDate = Calendar.current.date(byAdding: .year, value: 1, to: dates[i].date) {
                     

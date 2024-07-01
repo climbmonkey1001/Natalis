@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C014F882C29CEF50033055B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C014F872C29CEF50033055B /* Launch Screen.storyboard */; };
 		8C1963BD29A650B700DA6100 /* NatalisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1963BC29A650B700DA6100 /* NatalisApp.swift */; };
 		8C1963BF29A650B700DA6100 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1963BE29A650B700DA6100 /* CardView.swift */; };
 		8C1963C129A650BB00DA6100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1963C029A650BB00DA6100 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C014F872C29CEF50033055B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8C1963B929A650B700DA6100 /* Natalis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Natalis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1963BC29A650B700DA6100 /* NatalisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatalisApp.swift; sourceTree = "<group>"; };
 		8C1963BE29A650B700DA6100 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				8C1963D929AF50FD00DA6100 /* DetailView.swift */,
 				8C448FE429F04EAE006A7A71 /* SearchBar.swift */,
 				8C5FE95529B8CCC80093D280 /* DetailEditView.swift */,
+				8C014F872C29CEF50033055B /* Launch Screen.storyboard */,
 				8C1963C029A650BB00DA6100 /* Assets.xcassets */,
 				8C1963C229A650BB00DA6100 /* Preview Content */,
 			);
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C014F882C29CEF50033055B /* Launch Screen.storyboard in Resources */,
 				8C1963C429A650BB00DA6100 /* Preview Assets.xcassets in Resources */,
 				8C1963C129A650BB00DA6100 /* Assets.xcassets in Resources */,
 			);
@@ -326,11 +330,12 @@
 				DEVELOPMENT_TEAM = 4TBUMJB2V7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,11 +360,12 @@
 				DEVELOPMENT_TEAM = 4TBUMJB2V7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
